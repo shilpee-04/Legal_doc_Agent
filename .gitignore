@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Environment variables (never push API keys!)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ChromaDB local database
+chroma_db/
+.chroma/
+chroma/
+
+# VS Code
+.vscode/
+
+# Testing files
+test.py
+test_rag.py
+test_graph.py
